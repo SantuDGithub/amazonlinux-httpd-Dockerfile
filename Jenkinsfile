@@ -5,7 +5,6 @@ pipeline {
   environment {
     ORG = 'bakuppus'
     APP_NAME = 'amazonlinux-httpd-dockerfile'
-    CHARTMUSEUM_CREDS = credentials('jenkins-x-chartmuseum')
     DOCKER_REGISTRY_ORG = 'bakuppus'
   }
   stages {
